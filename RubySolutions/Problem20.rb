@@ -1,0 +1,1 @@
+100.downto(1).inject(&:*).to_s.scan(/\d/).map(&:to_i).inject(&:+)
